@@ -340,9 +340,9 @@
           "version": "2.17.1",
           "language": "javascript"
         },
-        "jimp": {
-          "name": "jimp",
-          "version": "0.6.4",
+        "math-expression-evaluator": {
+          "name": "math-expression-evaluator",
+          "version": "1.2.17",
           "language": "javascript"
         }
       }
@@ -355,7 +355,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565870884694
+    "lastSave": 1565871514284
   },
   "VCS_STATE": {
     "provider": "GitHub",
