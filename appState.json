@@ -30,7 +30,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "70a22052-fad6-4f59-a4fd-9dce2535660d": {
+            "id": "70a22052-fad6-4f59-a4fd-9dce2535660d",
+            "name": "Test event",
+            "functionId": "0e2b20eb-6cfc-439f-83c0-5b2882a35265",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "deletedFiles": [],
@@ -340,9 +349,9 @@
           "version": "2.17.1",
           "language": "javascript"
         },
-        "math-expression-evaluator": {
-          "name": "math-expression-evaluator",
-          "version": "1.2.17",
+        "jimp": {
+          "name": "jimp",
+          "version": "0.6.4",
           "language": "javascript"
         }
       }
@@ -355,7 +364,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565871514284
+    "lastSave": 1565872375432
   },
   "VCS_STATE": {
     "provider": "GitHub",
